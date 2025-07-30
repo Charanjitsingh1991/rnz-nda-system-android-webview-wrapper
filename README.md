@@ -135,8 +135,8 @@ For issues related to the WordPress NDA plugin system, contact the RNZ developme
 ---
 
 **App Name**: RNZ NDA System  
-**App Author**: Charanjit Singh 
 **Package**: com.rnz.ndasystem  
 **Version**: 1.0  
 **Target SDK**: Android 14 (API 34)  
 **Minimum SDK**: Android 7.0 (API 24)
+**App Author**: Charanjit Singh 
