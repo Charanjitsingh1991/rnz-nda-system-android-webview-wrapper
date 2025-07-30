@@ -1,4 +1,4 @@
-# RNZ NDA System - Android WebView Wrapper
+# RNZ NDA System - Android
 
 A minimal Android app built with Kotlin that acts as a WebView wrapper for the RNZ WordPress-based NDA plugin system.
 
@@ -135,6 +135,7 @@ For issues related to the WordPress NDA plugin system, contact the RNZ developme
 ---
 
 **App Name**: RNZ NDA System  
+**App Author**: Charanjit Singh 
 **Package**: com.rnz.ndasystem  
 **Version**: 1.0  
 **Target SDK**: Android 14 (API 34)  
