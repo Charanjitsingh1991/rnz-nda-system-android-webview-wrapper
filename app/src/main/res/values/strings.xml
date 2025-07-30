@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RNZ NDA Management</string>
+    <string name="error_no_internet">No Internet Connection</string>
+    <string name="error_page_not_found">Page Not Found</string>
+    <string name="error_loading_page">Error Loading Page</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading...</string>
+    
+    <!-- Exit confirmation dialog -->
+    <string name="exit_confirmation_title">Exit RNZ NDA Management?</string>
+    <string name="exit_confirmation_message">Are you sure you want to exit the application?</string>
+    <string name="exit_yes">Exit</string>
+    <string name="exit_no">Stay</string>
+    <string name="exit_toast_message">Press back again to exit</string>
+</resources>
