@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic for your domain -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">rnz-group.com</domain>
+        <domain includeSubdomains="true">www.rnz-group.com</domain>
+    </domain-config>
+    
+    <!-- Default security for other domains -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
