@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Agricultural background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#87CEEB"
+                android:centerColor="#98D8E8"
+                android:endColor="#2E7D32"
+                android:angle="270"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Ground/field overlay -->
+    <item android:top="400dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#4CAF50"
+                android:centerColor="#388E3C"
+                android:endColor="#2E7D32"
+                android:angle="270"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Logo in center (this will show your logo immediately) -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/logo"
+            android:gravity="center" />
+    </item>
+    
+</layer-list>
